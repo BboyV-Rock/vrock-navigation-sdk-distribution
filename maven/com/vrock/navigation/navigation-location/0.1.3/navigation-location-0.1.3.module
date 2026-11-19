@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vrock.navigation",
+    "module": "navigation-location",
+    "version": "0.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-location-0.1.3.aar",
+          "url": "navigation-location-0.1.3.aar",
+          "size": 6864,
+          "sha512": "d2845ae617d22f05ab064ea0b6a21236fbb5454cc0e6e47918f86adb7a72e614355e02be48b8a4f2d4f6c70801405aa3f77e7e8d4d5542a9bd3b1c340a2c2039",
+          "sha256": "26878970b26e83dffa6db5c5bceb5767eeaaa6f8b90e51b37a86b337de6ec3b2",
+          "sha1": "a61a2a296d6cf2a6852cc1a537b6150a09481f8c",
+          "md5": "c87d689c65c836c88f2c8fd520e00cbb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-location-0.1.3.aar",
+          "url": "navigation-location-0.1.3.aar",
+          "size": 6864,
+          "sha512": "d2845ae617d22f05ab064ea0b6a21236fbb5454cc0e6e47918f86adb7a72e614355e02be48b8a4f2d4f6c70801405aa3f77e7e8d4d5542a9bd3b1c340a2c2039",
+          "sha256": "26878970b26e83dffa6db5c5bceb5767eeaaa6f8b90e51b37a86b337de6ec3b2",
+          "sha1": "a61a2a296d6cf2a6852cc1a537b6150a09481f8c",
+          "md5": "c87d689c65c836c88f2c8fd520e00cbb"
+        }
+      ]
+    }
+  ]
+}
