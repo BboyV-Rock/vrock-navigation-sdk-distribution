@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vrock.navigation",
+    "module": "navigation-map",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-map-0.1.4.aar",
+          "url": "navigation-map-0.1.4.aar",
+          "size": 93981,
+          "sha512": "71baeeb618afeb4695170c2cbd13c14e4db4fbc65685631286e18451517818aa7d69f291d0a9f13a551778d8b6208bb2362b77c1e5f9041bfd384d1c8040cdd4",
+          "sha256": "23820ce88972864f6b11481fb1733314593719e36519d4b09bff9bfffbe5103a",
+          "sha1": "ecc3739c6d424bf652844ada5c5192b10305d170",
+          "md5": "ec2f73922a43b03d7a284992ab176d6e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.02.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.maplibre.gl",
+          "module": "android-sdk-opengl",
+          "version": {
+            "requires": "13.6.1"
+          }
+        },
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-map-0.1.4.aar",
+          "url": "navigation-map-0.1.4.aar",
+          "size": 93981,
+          "sha512": "71baeeb618afeb4695170c2cbd13c14e4db4fbc65685631286e18451517818aa7d69f291d0a9f13a551778d8b6208bb2362b77c1e5f9041bfd384d1c8040cdd4",
+          "sha256": "23820ce88972864f6b11481fb1733314593719e36519d4b09bff9bfffbe5103a",
+          "sha1": "ecc3739c6d424bf652844ada5c5192b10305d170",
+          "md5": "ec2f73922a43b03d7a284992ab176d6e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vrock.navigation",
+    "module": "navigation-ui-common",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-ui-common-0.1.4.jar",
+          "url": "navigation-ui-common-0.1.4.jar",
+          "size": 16434,
+          "sha512": "54234abf70aa35f52aeba9f364e5fa3e4830665c25124ddb8d101fe3bb17a4897df67abc29f05b1a26ffb6d6f55568ae6c94b74c0f3425dce4fece7dcb3cd8a0",
+          "sha256": "e509ba6ae36920686b02d8e114584be683de48e17ef3da6e8b4bd487f3a864b1",
+          "sha1": "43ca67767cd7b77ab0d10965f61f9687db292931",
+          "md5": "116e96e0f33d671436235987c0534aed"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-ui-common-0.1.4.jar",
+          "url": "navigation-ui-common-0.1.4.jar",
+          "size": 16434,
+          "sha512": "54234abf70aa35f52aeba9f364e5fa3e4830665c25124ddb8d101fe3bb17a4897df67abc29f05b1a26ffb6d6f55568ae6c94b74c0f3425dce4fece7dcb3cd8a0",
+          "sha256": "e509ba6ae36920686b02d8e114584be683de48e17ef3da6e8b4bd487f3a864b1",
+          "sha1": "43ca67767cd7b77ab0d10965f61f9687db292931",
+          "md5": "116e96e0f33d671436235987c0534aed"
+        }
+      ]
+    }
+  ]
+}
