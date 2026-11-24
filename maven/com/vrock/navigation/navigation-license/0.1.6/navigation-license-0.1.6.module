@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vrock.navigation",
+    "module": "navigation-license",
+    "version": "0.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-license-0.1.6.aar",
+          "url": "navigation-license-0.1.6.aar",
+          "size": 52236,
+          "sha512": "dac31d2d59d3f245bf8c1652a891a6bcaf970d15693b5a5ed77a1f2ad21faecf1898f1a2f120307196c5cfb6f6c269c77f81a9721d6b92181b3ea46cdcbd2082",
+          "sha256": "449b316b9c039351c765881aa2880aa10785cc73586fcb010a2ef554fb4714c2",
+          "sha1": "368560c7c50336ee6c7f67a6ea86477b66dbb42f",
+          "md5": "27e019d8d6f110b356982fd9c774affe"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-license-0.1.6.aar",
+          "url": "navigation-license-0.1.6.aar",
+          "size": 52236,
+          "sha512": "dac31d2d59d3f245bf8c1652a891a6bcaf970d15693b5a5ed77a1f2ad21faecf1898f1a2f120307196c5cfb6f6c269c77f81a9721d6b92181b3ea46cdcbd2082",
+          "sha256": "449b316b9c039351c765881aa2880aa10785cc73586fcb010a2ef554fb4714c2",
+          "sha1": "368560c7c50336ee6c7f67a6ea86477b66dbb42f",
+          "md5": "27e019d8d6f110b356982fd9c774affe"
+        }
+      ]
+    }
+  ]
+}

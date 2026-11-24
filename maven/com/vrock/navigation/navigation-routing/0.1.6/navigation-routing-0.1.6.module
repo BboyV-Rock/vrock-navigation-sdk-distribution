@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vrock.navigation",
+    "module": "navigation-routing",
+    "version": "0.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-routing-0.1.6.jar",
+          "url": "navigation-routing-0.1.6.jar",
+          "size": 37353,
+          "sha512": "372b71e2fc9057e84ffa15021f1201d5dfa7f39cb8173dfc218858123014fd576ff3afc0b04ba13aa384f4bb2a555394d3ba56d8075ca7925ca0ea46be40285d",
+          "sha256": "d2c03ce385134f6c43f3d9fdcb1ad9d7ea8b2bd525c64843e791bf42a5c7acf5",
+          "sha1": "80a9c6b1f9b6b141ea570bfae4caf88ec278d8fa",
+          "md5": "6c129dd3bf7c7898ca1a61701a05d7ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.vrock.navigation",
+          "module": "navigation-core",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-routing-0.1.6.jar",
+          "url": "navigation-routing-0.1.6.jar",
+          "size": 37353,
+          "sha512": "372b71e2fc9057e84ffa15021f1201d5dfa7f39cb8173dfc218858123014fd576ff3afc0b04ba13aa384f4bb2a555394d3ba56d8075ca7925ca0ea46be40285d",
+          "sha256": "d2c03ce385134f6c43f3d9fdcb1ad9d7ea8b2bd525c64843e791bf42a5c7acf5",
+          "sha1": "80a9c6b1f9b6b141ea570bfae4caf88ec278d8fa",
+          "md5": "6c129dd3bf7c7898ca1a61701a05d7ce"
+        }
+      ]
+    }
+  ]
+}
